@@ -1,0 +1,170 @@
+/*Por Sergio Fredes - www.infodi.cl */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Chelsea+Market);
+@font-face {
+    font-family: "Panton Regular";
+    src: url("../fonts/Panton-BlackCaps.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: url('../imagens/cg2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+
+}
+
+.header {
+    padding: 0.1em 0;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.navbar-nav {
+    float: right;
+    margin: 1em 0 0 0;
+}
+
+.navbar-brand {
+    margin-top: -10px;
+}
+
+.navbar-default {
+    background: none !important;
+    border: none !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f5e413;
+    background: none !important;
+    border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    color: #040608;
+    font-size: 1.5em;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+
+    color: #ebff37;
+    font-size: 1.5em;
+}
+
+.inicio {
+    display: flex;
+    height: 100vh;
+    padding-top: 0;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(4, 6, 8, 0.82);
+
+}
+
+.inicio:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.inicio h1 {
+    font-size: 70px;
+    color: #ffffff;
+    /*font-family: 'Panton', cursive;*/
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+.inicio span {
+
+    font-size: 100px;
+    /*font-family: 'Panton', cursive;*/
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+.marcador {
+    font-size: 140px;
+    color: #ffffff;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.evento {
+    align-items: center;
+
+    background-color: #ffffff;
+    display: flex;
+    height: 75vh;
+}
+
+.evento p {
+
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.inscricao {
+    align-items: center;
+    background-color: #ebff37;
+    display: flex;
+    height: 60vh;
+}
+
+.palestrantes {
+    background-color: #ffffff;
+    display: flex;
+    height: 100vh;
+
+}
+
+.realizacao {
+
+    background-color: #fafafa;
+    display: flex;
+    height: 100vh;
+
+}
+
+.local {
+    background-color: #fafafa;
+}
+
+#map_canvas {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.footer {
+    align-items: center;
+    background-color: #fac410;
+    display: flex;
+    height: 10vh;
+
+}
+.footer p{
+    font-size: 20px;
+}
+.fa {
+    color: #ffffff;
+}
